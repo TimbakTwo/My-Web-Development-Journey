@@ -1,0 +1,3 @@
+when I set margin: 0 auto; on some container, I cannot see it well
+on visual studio code browser itself, but when I tried it in chrome
+it works

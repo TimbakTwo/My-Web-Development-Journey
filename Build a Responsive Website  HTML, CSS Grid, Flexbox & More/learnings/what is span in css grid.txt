@@ -1,0 +1,1 @@
+With span , you set the starting line and then how many columns to span into from that starting point. In this case, grid-column: 1 / span 12 would be equivalent to grid-column: 1 / 13 , and grid-column: 2 / span 6 would be equivalent to grid-column: 2 / 8 .

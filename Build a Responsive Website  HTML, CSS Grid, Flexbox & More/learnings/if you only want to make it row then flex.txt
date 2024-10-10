@@ -1,0 +1,3 @@
+if you only want that for example the specific elements to align to be row
+then just use flex i guess, try grid if you want that one element to be 
+bigger span

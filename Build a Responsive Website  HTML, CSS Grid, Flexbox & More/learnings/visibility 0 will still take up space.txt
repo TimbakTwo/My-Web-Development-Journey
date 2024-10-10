@@ -1,0 +1,7 @@
+.element {
+	visibility: hidden;
+	height: 0
+}
+
+set height 0 so it doesn't have a height and doensn't take up spaces
+. I think set width to 0 if necessary too

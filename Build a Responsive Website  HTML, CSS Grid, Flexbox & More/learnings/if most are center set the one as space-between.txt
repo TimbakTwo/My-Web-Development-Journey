@@ -1,0 +1,8 @@
+for example you want most all container with
+display: flex; justify-content: center;
+
+but there is this one that needs justify-content: space-between;
+
+set the only individual element that needs space-between only
+
+// Is this advice messy? Or not

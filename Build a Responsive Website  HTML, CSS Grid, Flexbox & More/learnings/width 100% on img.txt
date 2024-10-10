@@ -1,0 +1,5 @@
+so even it is a large image, it won't bust outside of it's container;
+
+img {
+	width: 100%; hahahhaahhahhaa
+}

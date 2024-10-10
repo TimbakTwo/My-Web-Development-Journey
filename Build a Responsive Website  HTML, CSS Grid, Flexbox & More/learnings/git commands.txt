@@ -1,0 +1,3 @@
+git init // creates a repository 
+
+// i'm lazy to write the others, search for it, git is important haha

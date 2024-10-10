@@ -1,0 +1,3 @@
+as brad traversy adviced, you should only do mobile first in styling
+when you think the website is more mobile focused otherwise, you should
+style it desktop first

@@ -1,0 +1,4 @@
+required attribute on input html element is a basic
+input validation function
+
+// search on google for more 

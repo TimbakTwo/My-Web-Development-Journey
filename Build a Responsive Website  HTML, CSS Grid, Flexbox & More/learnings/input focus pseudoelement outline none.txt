@@ -1,0 +1,5 @@
+for example
+
+input:focus {
+ outline: none;
+}

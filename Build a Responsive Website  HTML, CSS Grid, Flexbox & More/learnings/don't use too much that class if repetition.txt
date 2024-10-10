@@ -1,0 +1,45 @@
+for example there is utility class for text-align,
+which is .text-center
+
+.text-center {
+	text-align: center;
+}
+
+
+<div class="boxes">
+	<div class="box text-center"></div>
+	<div class="box text-center"></div>
+	<div class="box text-center"></div>
+	<div class="box text-center"></div>
+	<div class="box text-center"></div>
+	<div class="box text-center"></div>
+	<div class="box text-center"></div>
+	<div class="box text-center"></div>
+</div>
+
+
+// like in this example, it's just alot of repetition for using,
+the same utility class which is that ".text-center", 
+why not use css like this
+
+.boxes box {
+	text-align: center;
+}
+
+// so you can remove all those many repetitions, because that .text-center
+utility class is just using one css property which is "text-align"
+
+// but there is an exception, you can use the same utility class
+over and over again for some reason
+
+.card {
+ background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+
+// this .card utility class has alot of properties, so if necessary, you can
+use this class repeatedly
