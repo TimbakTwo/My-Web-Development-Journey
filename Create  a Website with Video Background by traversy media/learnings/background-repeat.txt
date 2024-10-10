@@ -1,0 +1,2 @@
+for example when the image background repeats
+you set background-repeat: no-repeat

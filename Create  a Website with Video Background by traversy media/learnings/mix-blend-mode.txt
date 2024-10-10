@@ -1,0 +1,17 @@
+background: red;'
+mix-blend-mode: overlay;
+
+// so what this does?
+
+
+
+
+// example
+-- your whole article has a z-index of 1
+then a big blue background is covering your whole article because
+it has z-index set to 2, basically what mix-blend-mode: overlay do
+is it's like a glorified version of setting transparency like the rgba
+alpha or opacity 0.5 for example to make it good while making the
+big blue background transparent so you can see the article
+covered with overlay aesthetically and more pleasing, try it or search
+google for more info.

@@ -1,0 +1,12 @@
+a {
+	display: inline-block;
+}
+
+to be sure, search this on google
+
+but for me the reason is, when you don't set an <a> html tag
+display: inline-block, their default display is display: inline, 
+you should set them to display: inline-block or else if you set
+transform: scale(0.5) like that or width,height,margin,padding, if you 
+set that for example and it doesn't work I think you need to set
+it to display: inline-block;

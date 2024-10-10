@@ -1,0 +1,14 @@
+position: fixed;
+
+go to the tutorial remake project go to styles.css
+modify the .bgVideo from position: absolute to fixed and see what will happen
+
+for example 
+
+for example a video element is inside the parent element 
+when you move the parent element position while the video background
+element which is the children element is positioned absolute the video
+element will move also, but when the children video element is positioned 
+fixed,
+it will not follow the position of it's parent element unless you specify
+expllcitly the position of the video element also.

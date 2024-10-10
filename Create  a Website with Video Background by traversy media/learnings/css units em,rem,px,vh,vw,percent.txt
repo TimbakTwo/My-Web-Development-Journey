@@ -1,0 +1,7 @@
+em- relative/multiplier of font-size to parent element
+rem- relative/multiplier of font-size to html element, I think 16px is default
+px - absolute size
+vh - viewport height
+vw - viewport width?
+percent - for example I set the children element 50%, then
+it will inherit the half the size of the parent element

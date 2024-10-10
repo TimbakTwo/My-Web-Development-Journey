@@ -1,0 +1,10 @@
+search that up if you don't know or forgot about it.
+
+
+The display: inline-block Value
+Compared to display: inline , 
+the major difference is that 
+display: inline-block allows to set a width 
+and height on the element. Also, with display: 
+inline-block , the top and bottom margins/paddings 
+are respected, but with display: inline they are not.

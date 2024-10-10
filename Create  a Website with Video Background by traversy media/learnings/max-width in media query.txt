@@ -1,0 +1,10 @@
+@media(max-width: 991px) {
+	// viewport below this 991px will apply this styles
+}
+
+or 
+
+@media(max-width: 798px) {
+	// 798px max width media query is mostly brad traversy do
+	so take this as a grain of salt
+}

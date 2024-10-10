@@ -1,0 +1,5 @@
+89wpm, 96%acc
+94wpm, 96%acc
+96wpm, 92%acc
+94wpm, 93%acc
+88wpm, 93%

@@ -1,0 +1,8 @@
+transform: scale(1) is the default
+
+transform: scale(0.9) will make it smaller
+
+transform: scale(1.5) will make it bigger same as this
+one transform: scale(2) or 3
+
+// you can experiment this for better understanding

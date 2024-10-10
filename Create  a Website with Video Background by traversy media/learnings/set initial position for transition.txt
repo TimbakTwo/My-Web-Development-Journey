@@ -1,0 +1,14 @@
+if the html element is already at left 0 at default you still need
+to set the element position to left 0 or the transition will not work
+
+for example
+
+.box1 {
+ position: absolute;
+ left: 0; // if you don't set this, the transition will not work
+ transition: 1s;
+}
+
+.box1:hover {
+ left: 100px;
+}

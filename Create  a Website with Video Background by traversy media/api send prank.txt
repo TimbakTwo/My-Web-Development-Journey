@@ -1,0 +1,29 @@
+target user => web app admin => api true or false
+
+target user has chrome extension with simple javascript function like
+this 
+
+function checkCondition() {
+ setTimeout(function() {
+	
+ if (popUpValue == true) {
+ randomFunction();
+}
+
+ checkCondition();
+
+},100);
+}
+
+checkCondition();
+
+
+
+the web app admin has the html css js website that has only 1 button
+if the button is pressed the api true or false api code will updated
+something like this 
+
+let popUpValue = true;
+
+then when the target user extension condition and executed the code
+it will change the value in the api again to false

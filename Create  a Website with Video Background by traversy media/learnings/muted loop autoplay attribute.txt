@@ -1,0 +1,6 @@
+muted,loop,autoplay are types of attribute you can put
+on your <video></video> html tag
+
+muted - will mute the video
+loop - with play the video infinitely
+autoplay - after a user enter the website it plays the video automatically

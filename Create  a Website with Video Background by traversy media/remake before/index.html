@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pizza Galaxy</title>
+</head>
+<body>
+
+    <nav class="navigation">
+        <ul class="navigations">
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Merchandise</a></li>
+            <li><a href="#">Ecommerce</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">PhoneNumber</a></li>
+            <li><a href="#">Banking Details</a></li>
+        </ul>
+    </nav>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="beach.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <div class="showcase">
+
+        <header>
+            <div class="logo">Travel</div>
+            <div class="menu"></div>
+        </header>
+
+        <div class="main-content">
+            <h1>Never Stop To <span>Explore The World</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Velit quis porro 
+                aliquid a ex maxime quam cupiditate 
+                cum dolor inventore alias architecto 
+                quidem, iste aliquam? Eum alias esse 
+                voluptatum ipsumquidem, iste aliquam? Eum alias esse 
+            </p>
+            <a href="#" class="cta">Explore Now</a>
+        </div>
+
+        <ul class="socials">
+            <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="images/instagram.png" alt=""></a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector(".menu");
+        const showcase = document.querySelector(".showcase");
+        const navigation = document.querySelector(".navigation");
+
+        menuToggle.addEventListener("click", () => {
+            showcase.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

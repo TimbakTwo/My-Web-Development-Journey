@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>WPImagine</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">WP<span>Imagine</span></h2>
+            <div class="menuButton"></div>
+        </header>
+
+        <video src="coding.mp4" class="bgVideo" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="hero-section">
+            <h2>A WordPress Service</h2>
+            <h3>Responsive & Fast</h3>
+            <p>Hi, i'm Evan, A Wordpress Developer based on Philippines, I do WordPress
+                services focused on website's responsiveness and ease with a serious
+                passion of making a smooth customer experience and optimization, i'm also
+                a web developer in general that do custom code (HTML, CSS, JS, php/etc)
+            </p>
+            <a href="#" class="cta">Let's Connect</a>
+        </div>
+
+        <ul class="socials">
+            <li>
+                <a href="https://github.com/TimbakTwo?tab=overview&from=2024-06-01&to=2024-06-11">
+                    <img src="social icons/github-mark-white.png" alt="github account link">
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.linkedin.com/in/evan-m-de-leon-189636275/">
+                    <img src="social icons/LinkedIn_logo_initials.png" alt="linkedin account link">
+                </a>
+            </li>
+
+            <li>
+                <a href="https://x.com/BaconShadow2" class="twitterLogo">
+                    <img src="social icons/X_logo_2023_original.svg" alt="twitter account link">
+                </a>
+            </li>      
+        </ul>
+    </section>
+
+    <div class="navigations">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About Me</a></li>
+        </ul>
+    </div>
+    
+    <script>
+        const menuButton = document.querySelector('.menuButton');
+        const showcase = document.querySelector('.showcase');
+        
+
+        menuButton.addEventListener('click', () => {
+            menuButton.classList.toggle('active');
+            showcase.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

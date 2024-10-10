@@ -1,0 +1,7 @@
+:root {
+    --overlay-color: #03a9f4;
+}
+
+.example {
+    color: var(--overlay-color);
+}

@@ -1,0 +1,17 @@
+.socials li a {
+    display: inline-block;
+    margin-right: 20px;
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+
+
+.socials li a:hover {
+    transform: scale(0.9) translateY(-15px)
+    
+}
+
+// in this sample css code as you can see it states the 
+scale(0.9) again in hover transform to keep the scale at 0.9 when
+it is hovered

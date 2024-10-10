@@ -1,0 +1,15 @@
+const menuToggle = document.querySelector(".toggle");
+const showcase = document.querySelector(".showcase");
+
+menuToggle.addEventListener("click", () => {
+    menuToggle.classList.toggle("active");
+    showcase.classList.toggle("active");
+})
+
+// what toggle does, look at this example
+each time a user click that element for example, it will remove and add 
+the class "active" alternatively so you don't need to use if/else code
+to make this possible
+
+// look more in google for more clarification if you want.
+
